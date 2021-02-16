@@ -1,0 +1,13 @@
+.form-data{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    left: 340px;
+}
+input{
+    width: 400px;
+    height: 37px;
+    padding: 2px;
+    margin: 6px;
+}

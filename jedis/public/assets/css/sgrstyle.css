@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+a{
+    text-decoration: none;
+}
+.panel{ 
+    text-align: center;
+    margin-top: 150px;
+}
+
+.title, .manage-title{
+    display: inline-block;
+    font-size: 55px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.title span,.manage-title span{
+    color: #cea384;
+}
+
+.product ,.users{
+    display: inline-block;
+    height: 45px;
+    width: 152px;
+    font-size: 20px;
+    padding: 8px 40px;
+    margin-top: 20px;
+    vertical-align: middle;
+    line-height: 45px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.product{
+    background: #cea384;
+    color: #fff;
+    border: 1px solid #cea384;
+    text-align: center;
+}
+.product:hover{
+    background:#fff;
+    color: #cea384;
+}
+
+.users{
+    background:#fff;
+    color: #cea384;
+    border: 1px solid #cea384;
+}
+.users:hover{
+    background: #cea384;
+    color: #fff;
+    border: 1px solid #cea384;  
+}
+
+.logout-btn{
+    display: inline-block;
+    color: #cea384;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: black;
+    width: 400px;
+    height: 45px;
+    padding: 8px 40px;
+    vertical-align: middle;
+    line-height: 45px;
+    border-radius: 10px;
+}
+
+/* manage product */
+
+table{
+    border-spacing: 0;
+    border: 1px solid #cea384;
+    border-radius: 5px;
+}
+table tr:nth-child(even){
+    background-color: rgba(206, 163, 132, 0.2);
+}
+.table-heading th{
+    color: white;
+    background-color: #cea384;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+tr th,tr td{
+    color: black;
+    font-size: 13px;
+    height: 40px;
+}
+.manage-edit-btn, .manage-delete-btn{
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.manage-edit-btn{
+    display: inline-block;
+    background-color: lightgreen;
+}
+
+.manage-delete-btn{
+    background-color: tomato;
+}
+
+.manage-title{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+.add-product-section {
+    width: 100%;
+    height: 50px;
+}
+.add-product-section span{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.add-product {
+    font-size: 14px;
+    background-color: black;
+    color: #cea384;
+    text-transform: uppercase;
+    float: right;
+    padding: 15px; 
+    border-radius: 5px;
+}
+
+/* edit product */
+.edit-form-label{
+    display: inline-block;
+    width: 20%;
+    margin: 10px 0;
+    font-size:18px ;
+}
+.edit-form input, .images-div input, .add_product_form input,.add_product_form select, textarea{
+    width: 20%;
+    height: 30px;
+    border: 1px solid #cea384;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+    background-color: rgba(206, 163, 132, 0.2);
+}
+textarea{
+    margin-top: 5px;
+    height: 50px;
+}
+input[type="file"]{
+    display: inline-block;
+    height: 50px;
+    border: 0;
+    background: transparent;
+    margin-bottom: 0;
+}
+input[type="file"]::-webkit-file-upload-button{
+    font-size: 10px;
+    background-color: black;
+    color: #cea384;
+    text-transform: uppercase;
+    padding: 12px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.edit-submit{
+    height: 45px;
+    width: 40%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 8px 40px;
+    vertical-align: middle;
+    border-radius: 10px;
+    background: #cea384;
+    color: #000;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+/* manage-user */
+p.manage-user{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
