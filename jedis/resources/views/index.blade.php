@@ -10,7 +10,6 @@
 @section('body')
 
 <!-- banner ------------->
-	<h1>hiii</h1>
 	<section class="banner">
 		<div class="cheking">
 			<div class="slider-img" style="background-image: url(image/slider1_2000x.jpg);background-repeat: no-repeat;background-size: cover;">
